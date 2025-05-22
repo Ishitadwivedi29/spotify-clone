@@ -1,9 +1,9 @@
 {
     "title":"OLD IS GOLD",
     "description":"songs for 1990'S",
-    "tracks": [
-    "Abhi Na Jao Chhod Kar - Hum Dono.mp3",
-    "Early Morning - Chashme Baddoor - Copy (2).mp3",
-    "Ye Tune Kya Kiya - Once Upon A Time In Mumbaai Dobara - Copy (2).mp3"
+    "songs": [
+    { "file":  "Abhi Na Jao Chhod Kar - Hum Dono.mp3", "title": "Song One" },
+    { "file": "Early Morning - Chashme Baddoor - Copy (2).mp3", "title": "Song Two" },
+    { "file":  "Ye Tune Kya Kiya - Once Upon A Time In Mumbaai Dobara - Copy (2).mp3", "title": "Song Three" }
   ]
 }
