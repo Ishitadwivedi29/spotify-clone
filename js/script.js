@@ -18,7 +18,7 @@ function secondsToMinutesSeconds(seconds) {
 
 async function getSongs(folder) {
     currFolder = folder;
-    let a = await fetch(`http://127.0.0.1:5500/${folder}/`)
+    let a = await fetch(`https://ishitadwivedi29.github.io/spotify-clone/${folder}/`)
     let response = await a.text();
     let div = document.createElement("div")
     div.innerHTML = response;
@@ -52,7 +52,7 @@ async function getSongs(folder) {
 }
 
 const playMusic = (track, pause = false) => {
-    currentSong.src = `/${currFolder}/` + track
+    currentSong.src = `https://ishitadwivedi29.github.io/spotify-clone/${currFolder}/` + track
     if (!pause) {
         currentSong.play()
         play.src = "img/pause.svg"
@@ -64,7 +64,7 @@ const playMusic = (track, pause = false) => {
 }
 async function displayAlbums() {
     console.log("displaying albums")
-    let a = await fetch(`http://127.0.0.1:5500/songs/`)
+    let a = await fetch(`https://ishitadwivedi29.github.io/spotify-clone/songs/`)
     let response = await a.text();
     let div = document.createElement("div")
     div.innerHTML = response;
@@ -79,7 +79,7 @@ async function displayAlbums() {
 
             console.log("Fetching JSON for folder:", folder); // Debugging step
 
-            let jsonResponse = await fetch(`http://127.0.0.1:5500/songs/${folder}/info.json`);
+            let jsonResponse = await fetch(`https://ishitadwivedi29.github.io/spotify-clone/songs/${folder}/info.json`);
 
             if (!jsonResponse.ok) {
                 console.error(`Failed to fetch JSON for folder: ${folder}. HTTP Status: ${jsonResponse.status}`);
