@@ -1,10 +1,10 @@
 {
     "title":"Emraan Hashmi",
     "description":"Essential track",
-    "tracks": [
-    "128-Ishq Sufiyana (Male) - The Dirty Picture 128 Kbps.mp3",
-    "128-Pee Loon Hoto Ki Sargam - Once Upon A Time In Mumbaai 128 Kbps.mp3",
-    "128-Tujhe Sochta Hoon - Jannat 2 128 Kbps.mp3",
-    "Deewana Kar Raha Hai Raaz 3 128 Kbps.mp3"
+    "songs": [
+        { "file": "128-Ishq Sufiyana (Male) - The Dirty Picture 128 Kbps.mp3", "title": "Song One" },
+        { "file": "128-Pee Loon Hoto Ki Sargam - Once Upon A Time In Mumbaai 128 Kbps.mp3", "title": "Song Two" },
+        { "file": "128-Tujhe Sochta Hoon - Jannat 2 128 Kbps.mp3", "title": "Song Three" },
+        { "file": "Deewana Kar Raha Hai Raaz 3 128 Kbps.mp3", "title": "Song Four" }
   ]
 }
