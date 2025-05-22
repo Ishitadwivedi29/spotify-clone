@@ -1,10 +1,10 @@
 {
     "title":"ANUV JAIN",
     "description":"songs for peace",
-    "tracks": [
-    "Alag Aasmaan - Anuv Jain - Copy (2).mp3",
-    "Baarishein (PenduJatt.Com.Se).mp3",
-    "Husn - Anuv Jain 128 Kbps.mp3",
-    "Jo Tum Mere Ho - Anuv Jain 128 Kbps.mp3"
+    "songs": [
+        { "file":"Alag Aasmaan - Anuv Jain - Copy (2).mp3", "title": "Song One" },
+        { "file": "Baarishein (PenduJatt.Com.Se).mp3", "title": "Song Two" },
+        { "file": "Husn - Anuv Jain 128 Kbps.mp3", "title": "Song Three" },
+        { "file": "Jo Tum Mere Ho - Anuv Jain 128 Kbps.mp3", "title": "Song Four" }
   ]
 }
