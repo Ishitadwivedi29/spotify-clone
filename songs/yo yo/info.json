@@ -1,8 +1,8 @@
 {
     "title":"Yo Yo Honey Singh",
     "description":"super hits ",
-    "tracks": [
-    "Dope Shope International Villager 128 Kbps.mp3",
-    "Millionaire Glory 128 Kbps.mp3"
+    "songs": [
+        { "file":"Dope Shope International Villager 128 Kbps.mp3", "title": "Song One" },
+        { "file": "Millionaire Glory 128 Kbps.mp3", "title": "Song Two" }
   ]
 }
