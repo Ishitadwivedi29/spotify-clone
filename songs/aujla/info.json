@@ -1,10 +1,10 @@
 {
     "title":"Karan Aujla",
     "description":"hip hop",
-    "tracks": [
-    "Admirin_You_1.mp3",
-    "Jee Ni Lagda - Making Memories 128 Kbps.mp3",
-    "Softly - Making Memories 128 Kbps.mp3",
-    "Tauba Tauba - Bad Newz 128 Kbps.mp3"
+    "songs": [
+        { "file": "Admirin_You_1.mp3", "title": "Song One" },
+        { "file": "Jee Ni Lagda - Making Memories 128 Kbps.mp3", "title": "Song Two" },
+        { "file": "Softly - Making Memories 128 Kbps.mp3", "title": "Song Three" },
+        { "file": "Tauba Tauba - Bad Newz 128 Kbps.mp3", "title": "Song Four" }
   ]
 }
